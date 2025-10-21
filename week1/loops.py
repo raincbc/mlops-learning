@@ -14,11 +14,11 @@
 #     counter += 1
 
 #HW 1.1
-# for j in range(10 + 1):
+# for j in range(11):
 #     print(j)
 
 #HW 1.2
-# for i in range(20 + 1):
+# for i in range(1б 21):
 #     if i > 0 and i % 2 == 0:
 #         print(i)
 
@@ -29,12 +29,9 @@
 #     counter -= 1
 
 #HW 2.1
-# num = int(input("Enter a number: "))
-# sum = 0
-#
-# for i in range(1, num + 1):
-#     sum += i
-# print("The sum of numbers from 1 to", num, "is:", sum)
+num = int(input("Enter a number: "))
+total = sum(range(1, num + 1))
+print("The sum of numbers from 1 to", num, "is:", total)
 
 #HW 2.2
 # word = "MLOps"
@@ -45,6 +42,7 @@
 # num = int(input("Enter a number: "))
 # while num > 0:
 #     num = int(input("Enter a number: "))
+# print("You entered a 0 Exiting.")
 
 #HW 3.1
 # number = int(input("Enter a number: "))
@@ -53,9 +51,9 @@
 
 #HW 3.2
 
-number = int(input("Enter a number: "))
-counter = number - 1
-for i in range(1, number + 1):
-    print(counter * " " + (i + i - 1) * '*')
-    counter -= 1
+# number = int(input("Enter a number: "))
+# counter = number - 1
+# for i in range(1, number + 1):
+#     print(counter * " " + (i + i - 1) * '*')
+#     counter -= 1
 
