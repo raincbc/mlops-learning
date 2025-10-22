@@ -1,3 +1,5 @@
+from tokenize import endpats
+
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # for row in matrix:
 #     print(row)
@@ -101,22 +103,38 @@ my_dict = {"a": 1, "b": {"c": 2, "d": {"e": 3, "f":{"g": 5, "k":{"i":17}}}}, "h"
 # print(deep_count(my_dict))
 
 #HW 4.1
-def analyze_nested_dict(d):
+def analyze_nested_dict(d, prefix=""):
     analyze_arr = {
         "total_keys": 0,
         "max depth": 0,
-        "unique_values": set()
+        "unique_values": set(),
+        "path to values": []
     }
     for key, value in d.items():
         analyze_arr["total_keys"] += 1
+        full_key = f"{prefix}.{key}" if prefix else key
 
         if isinstance(value, dict):
-            nested_analysis = analyze_nested_dict(value)
+            nested_analysis = analyze_nested_dict(value, full_key)
+            analyze_arr["path to values"] += nested_analysis["path to values"]
             analyze_arr["total_keys"] += nested_analysis["total_keys"]
             analyze_arr["max depth"] = max(analyze_arr["max depth"], 1 + nested_analysis["max depth"])
             analyze_arr["unique_values"].update(nested_analysis["unique_values"])
         else:
+            analyze_arr["path to values"].append(f"{full_key} → {value}")
             analyze_arr["unique_values"].add(value)
     return analyze_arr
 print(analyze_nested_dict(my_dict))
 
+
+#HW 4.2
+# def get_paths(d, prefix=""):
+    # paths = []
+    # for key, value in d.items():
+    #     full_key = f"{prefix}.{key}" if prefix else key
+#         if isinstance(value, dict):
+#             paths.extend(get_paths(value, full_key))
+#         else:
+#             paths.append(f"{full_key} → {value}")
+#     return paths
+# print(get_paths(my_dict))
