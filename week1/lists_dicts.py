@@ -107,20 +107,20 @@ text = "Python is powerful and Python is fun"
 # print(analyze_text(text))
 
 #HW 4.2
-d1 = {"a": 1, "b": 2, "c": 3}
-d2 = {"b": 2, "c": 4, "d": 5}
-
-def compaire_dicts(d1, d2):
-    new_arr = {}
-    set1 = set(d1)
-    set2 = set(d2)
-    common_keys = set1 & set2
-    new_arr["common_keys"] = list(common_keys)
-    new_arr["only_in_lst1"] = list(set1 - set2)
-    new_arr["only_in_lst1"] = list(set2 - set1)
-    new_arr["different_values"] = {
-        key: (d1[key], d2[key]) for key in common_keys if d1[key] != d2[key]
-    }
-    return new_arr
-print(compaire_dicts(d1, d2))
+# d1 = {"a": 1, "b": 2, "c": 3}
+# d2 = {"b": 2, "c": 4, "d": 5}
+#
+# def compaire_dicts(d1, d2):
+#     new_arr = {}
+#     set1 = set(d1)
+#     set2 = set(d2)
+#     common_keys = set1 & set2
+#     new_arr["common_keys"] = list(common_keys)
+#     new_arr["only_in_lst1"] = list(set1 - set2)
+#     new_arr["only_in_lst1"] = list(set2 - set1)
+#     new_arr["different_values"] = {
+#         key: (d1[key], d2[key]) for key in common_keys if d1[key] != d2[key]
+#     }
+#     return new_arr
+# print(compaire_dicts(d1, d2))
 

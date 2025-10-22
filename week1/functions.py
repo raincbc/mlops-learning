@@ -111,15 +111,15 @@
 
 
 #HW 4.2
-def analyze_list(lst):
-    number_sum = 0
-    even_number = 0
-    avg_number = 0
-    for i in lst:
-        number_sum += i
-        if i % 2 == 0:
-            even_number +=1
-    avg_number += number_sum / len(lst)
-    return number_sum , even_number, avg_number
-print(analyze_list([3, 5, 2, 8, 1, 4]))
-print(analyze_list([-10, -5, -2, -8, -1]))
+# def analyze_list(lst):
+#     number_sum = 0
+#     even_number = 0
+#     avg_number = 0
+#     for i in lst:
+#         number_sum += i
+#         if i % 2 == 0:
+#             even_number +=1
+#     avg_number += number_sum / len(lst)
+#     return number_sum , even_number, avg_number
+# print(analyze_list([3, 5, 2, 8, 1, 4]))
+# print(analyze_list([-10, -5, -2, -8, -1]))
