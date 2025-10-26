@@ -1,0 +1,9 @@
+{
+  "name": "Denis",
+  "age": 39,
+  "skills": ["Python", "HTML", "CSS"],
+  "profile": {
+    "city": "Kyiv",
+    "active": true
+  }
+}

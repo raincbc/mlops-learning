@@ -1,0 +1,12 @@
+{
+    "name": "Alice",
+    "age": 25,
+    "skills": [
+        "Python",
+        "SQL"
+    ],
+    "profile": {
+        "city": "Berlin",
+        "active": false
+    }
+}

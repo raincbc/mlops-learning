@@ -1,0 +1,6 @@
+[
+  {"name": "Alice", "age": 25, "profile": {"city": "Berlin", "active": true}},
+  {"name": "Bob", "age": 30, "profile": {"city": "London", "active": false}},
+  {"name": "Charlie", "age": 22, "profile": {"city": "Chicago", "active": true}},
+  {"name": "Denis", "age": 39, "profile": {"city": "Kyiv", "active": true}}
+]

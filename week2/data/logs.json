@@ -1,0 +1,7 @@
+[
+  {"type": "error", "message": "File not found"},
+  {"type": "info", "message": "Process started"},
+  {"type": "warning", "message": "Low memory"},
+  {"type": "error", "message": "Access denied"},
+  {"type": "info", "message": "User logged in"}
+]
