@@ -114,3 +114,14 @@ def is_valid_app_config(data):
             return False
     return True
 print(is_valid_app_config(config))
+
+
+def validate_cart(cart):
+    if not isinstance(cart, dict):
+        return False
+    return (
+        is_valid_meta_config(cart.get("config")) and
+        is_valid_user_list(cart.get("users")) and
+        is_valid_task_list(cart.get("tasks")) and
+        is_valid_app_config(cart.get("app_config"))
+    )
