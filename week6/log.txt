@@ -1,0 +1,9 @@
+2025-12-13 17:33:38,290 - root - INFO - Started
+2025-12-13 17:33:38,300 - root - WARNING - Warning message
+2025-12-13 17:33:38,300 - root - ERROR - Error message
+2025-12-13 17:39:39,761 - root - INFO - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:39:39,762 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:42:37,452 - root - INFO - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:42:37,453 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:42:38,329 - root - INFO - POST https://jsonplaceholder.typicode.com/users - Status Code: 201
+2025-12-13 17:42:38,333 - root - INFO - Added new user: Denis
