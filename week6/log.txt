@@ -7,3 +7,15 @@
 2025-12-13 17:42:37,453 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
 2025-12-13 17:42:38,329 - root - INFO - POST https://jsonplaceholder.typicode.com/users - Status Code: 201
 2025-12-13 17:42:38,333 - root - INFO - Added new user: Denis
+2025-12-13 17:51:06,622 - root - INFO - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:51:06,622 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:51:07,756 - root - INFO - POST https://jsonplaceholder.typicode.com/users - Status Code: 201
+2025-12-13 17:51:07,757 - root - INFO - Added new user: Denis
+2025-12-13 17:57:03,908 - root - INFO - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:57:03,909 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:57:04,714 - root - INFO - POST https://jsonplaceholder.typicode.com/users - Status Code: 201
+2025-12-13 17:57:04,714 - root - INFO - Added new user: Denis
+2025-12-13 17:58:09,679 - root - INFO - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:58:09,680 - root - WARNING - GET https://jsonplaceholder.typicode.com/users - Status Code: 200
+2025-12-13 17:58:10,559 - root - INFO - POST https://jsonplaceholder.typicode.com/users - Status Code: 201
+2025-12-13 17:58:10,559 - root - INFO - Added new user: Denis
